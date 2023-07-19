@@ -4,6 +4,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <WarningsAsErrors>Nullable</WarningsAsErrors>
         <RootNamespace>FastIDs.TypeId</RootNamespace>
         <AssemblyName>TypeId.Core</AssemblyName>
 
@@ -24,7 +25,7 @@
     </ItemGroup>
 
     <PropertyGroup>
-        <MinVerTagPrefix>type-id-v</MinVerTagPrefix>
+        <MinVerTagPrefix>typeid-v</MinVerTagPrefix>
         <MinVerIgnoreHeight>true</MinVerIgnoreHeight>
     </PropertyGroup>
 
